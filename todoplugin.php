@@ -67,7 +67,7 @@ function optimus_todo_js() {
                 clearTimeout(settime);
                 settime = setTimeout(function () {
                     todo_remove_empty();
-                }, 1000);
+                }, 1500);
             }
         }
         // check and remove empty fields, then pass data to save
@@ -86,7 +86,7 @@ function optimus_todo_js() {
             //console.log(data);
             jQuery(document).find('.todo_status').text('Status: Adding item to list');
             jQuery.ajax({
-                url: "<?php echo admin_url('admin-ajax.php'); ?>",
+                url: "<?php echo admin_url('optimus-admin-ajax.php'); ?>",
                 data: {action: 'todo_save_data', 'todo_data': data},
                 method: 'post',
                 success: function (dataReturn) {
