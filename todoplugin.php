@@ -4,7 +4,7 @@
   Plugin URI: https://www.optimuse-solutions.com
   Description: Created to ensure you do not miss out on the next get together by your crew
   Version: 1.01
-  Author: Mr. Thor
+  Author: Mr. Arnold Mate and Thor
   Author URI: https://www.optimuse-solutions.com
   License: GPL2
  */
